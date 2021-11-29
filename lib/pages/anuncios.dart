@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Perfil extends StatelessWidget {
+class Anuncios extends StatelessWidget {
+  const Anuncios({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Perfil'),
+        title: Text('Perfil'),
       ),
-      body: Text("Hola!"),
     );
   }
 }
