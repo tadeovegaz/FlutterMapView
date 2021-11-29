@@ -7,7 +7,7 @@ class Rcultural extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Json'),
+        title: Text('R Cultural'),
       ),
       body: Center(
         child: 
