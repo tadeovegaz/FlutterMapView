@@ -28,8 +28,8 @@ class _MyAppState extends State<MyApp> {
     Anuncios(),
   ];
   final items = <Widget>[
-    Icon(Icons.account_circle_rounded, size: 30),
-    Icon(Icons.shopping_basket, size: 30),
+    const Icon(Icons.account_circle_rounded, size: 30),
+    const Icon(Icons.shopping_basket, size: 30),
     Icon(Icons.directions_bus, size: 30),
     Icon(Icons.museum, size: 30),
     Icon(Icons.message, size: 30),
@@ -68,4 +68,3 @@ class _MyAppState extends State<MyApp> {
     
   }
 }
-
